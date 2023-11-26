@@ -28,28 +28,28 @@ The CXX compiler identification is GNU, found in "/home/ubuntu/repos/ORBSLAM2_wi
 Determining if the C compiler works passed with the following output:
 Change Dir: /home/ubuntu/repos/ORBSLAM2_with_pointcloud_map/ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_3669c/fast"
-/usr/bin/make -f CMakeFiles/cmTC_3669c.dir/build.make CMakeFiles/cmTC_3669c.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_83189/fast"
+/usr/bin/make -f CMakeFiles/cmTC_83189.dir/build.make CMakeFiles/cmTC_83189.dir/build
 make[1]: Entering directory '/home/ubuntu/repos/ORBSLAM2_with_pointcloud_map/ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_3669c.dir/testCCompiler.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_3669c.dir/testCCompiler.c.o   -c /home/ubuntu/repos/ORBSLAM2_with_pointcloud_map/ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_3669c
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3669c.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_3669c.dir/testCCompiler.c.o  -o cmTC_3669c 
+Building C object CMakeFiles/cmTC_83189.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_83189.dir/testCCompiler.c.o   -c /home/ubuntu/repos/ORBSLAM2_with_pointcloud_map/ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_83189
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_83189.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_83189.dir/testCCompiler.c.o  -o cmTC_83189 
 make[1]: Leaving directory '/home/ubuntu/repos/ORBSLAM2_with_pointcloud_map/ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: /home/ubuntu/repos/ORBSLAM2_with_pointcloud_map/ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_54930/fast"
-/usr/bin/make -f CMakeFiles/cmTC_54930.dir/build.make CMakeFiles/cmTC_54930.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_a98e1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a98e1.dir/build.make CMakeFiles/cmTC_a98e1.dir/build
 make[1]: Entering directory '/home/ubuntu/repos/ORBSLAM2_with_pointcloud_map/ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_54930.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_54930.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_54930
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_54930.dir/link.txt --verbose=1
-/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_54930.dir/CMakeCCompilerABI.c.o  -o cmTC_54930 
+Building C object CMakeFiles/cmTC_a98e1.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_a98e1.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_a98e1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a98e1.dir/link.txt --verbose=1
+/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_a98e1.dir/CMakeCCompilerABI.c.o  -o cmTC_a98e1 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper
@@ -61,9 +61,9 @@ Thread model: posix
 gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_54930' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cc38DLr0.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_54930 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_54930.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_54930' '-mtune=generic' '-march=x86-64'
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_a98e1' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cctfBY3W.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_a98e1 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_a98e1.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_a98e1' '-mtune=generic' '-march=x86-64'
 make[1]: Leaving directory '/home/ubuntu/repos/ORBSLAM2_with_pointcloud_map/ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/CMakeTmp'
 
 
@@ -71,14 +71,14 @@ Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/ubuntu/repos/ORBSLAM2_with_pointcloud_map/ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_54930/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_54930.dir/build.make CMakeFiles/cmTC_54930.dir/build]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_a98e1/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_a98e1.dir/build.make CMakeFiles/cmTC_a98e1.dir/build]
   ignore line: [make[1]: Entering directory '/home/ubuntu/repos/ORBSLAM2_with_pointcloud_map/ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_54930.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_54930.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_54930]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_54930.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_54930.dir/CMakeCCompilerABI.c.o  -o cmTC_54930 ]
+  ignore line: [Building C object CMakeFiles/cmTC_a98e1.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_a98e1.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_a98e1]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a98e1.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_a98e1.dir/CMakeCCompilerABI.c.o  -o cmTC_a98e1 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper]
@@ -90,13 +90,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_54930' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cc38DLr0.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_54930 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_54930.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_a98e1' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cctfBY3W.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_a98e1 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_a98e1.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/cc38DLr0.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cctfBY3W.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -115,7 +115,7 @@ Parsed C implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_54930] ==> ignore
+    arg [cmTC_a98e1] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o] ==> ignore
@@ -127,7 +127,7 @@ Parsed C implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..]
-    arg [CMakeFiles/cmTC_54930.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_a98e1.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--push-state] ==> ignore
     arg [--as-needed] ==> ignore
@@ -159,14 +159,14 @@ Parsed C implicit link information from above output:
 Detecting C [-std=c11] compiler features compiled with the following output:
 Change Dir: /home/ubuntu/repos/ORBSLAM2_with_pointcloud_map/ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_411a7/fast"
-/usr/bin/make -f CMakeFiles/cmTC_411a7.dir/build.make CMakeFiles/cmTC_411a7.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_b8a27/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b8a27.dir/build.make CMakeFiles/cmTC_b8a27.dir/build
 make[1]: Entering directory '/home/ubuntu/repos/ORBSLAM2_with_pointcloud_map/ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_411a7.dir/feature_tests.c.o
-/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_411a7.dir/feature_tests.c.o   -c /home/ubuntu/repos/ORBSLAM2_with_pointcloud_map/ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_411a7
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_411a7.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_411a7.dir/feature_tests.c.o  -o cmTC_411a7 
+Building C object CMakeFiles/cmTC_b8a27.dir/feature_tests.c.o
+/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_b8a27.dir/feature_tests.c.o   -c /home/ubuntu/repos/ORBSLAM2_with_pointcloud_map/ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_b8a27
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b8a27.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_b8a27.dir/feature_tests.c.o  -o cmTC_b8a27 
 make[1]: Leaving directory '/home/ubuntu/repos/ORBSLAM2_with_pointcloud_map/ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/CMakeTmp'
 
 
@@ -179,14 +179,14 @@ make[1]: Leaving directory '/home/ubuntu/repos/ORBSLAM2_with_pointcloud_map/ORB_
 Detecting C [-std=c99] compiler features compiled with the following output:
 Change Dir: /home/ubuntu/repos/ORBSLAM2_with_pointcloud_map/ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_42975/fast"
-/usr/bin/make -f CMakeFiles/cmTC_42975.dir/build.make CMakeFiles/cmTC_42975.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_38b02/fast"
+/usr/bin/make -f CMakeFiles/cmTC_38b02.dir/build.make CMakeFiles/cmTC_38b02.dir/build
 make[1]: Entering directory '/home/ubuntu/repos/ORBSLAM2_with_pointcloud_map/ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_42975.dir/feature_tests.c.o
-/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_42975.dir/feature_tests.c.o   -c /home/ubuntu/repos/ORBSLAM2_with_pointcloud_map/ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_42975
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_42975.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_42975.dir/feature_tests.c.o  -o cmTC_42975 
+Building C object CMakeFiles/cmTC_38b02.dir/feature_tests.c.o
+/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_38b02.dir/feature_tests.c.o   -c /home/ubuntu/repos/ORBSLAM2_with_pointcloud_map/ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_38b02
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_38b02.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_38b02.dir/feature_tests.c.o  -o cmTC_38b02 
 make[1]: Leaving directory '/home/ubuntu/repos/ORBSLAM2_with_pointcloud_map/ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/CMakeTmp'
 
 
@@ -199,14 +199,14 @@ make[1]: Leaving directory '/home/ubuntu/repos/ORBSLAM2_with_pointcloud_map/ORB_
 Detecting C [-std=c90] compiler features compiled with the following output:
 Change Dir: /home/ubuntu/repos/ORBSLAM2_with_pointcloud_map/ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_df446/fast"
-/usr/bin/make -f CMakeFiles/cmTC_df446.dir/build.make CMakeFiles/cmTC_df446.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_be1dd/fast"
+/usr/bin/make -f CMakeFiles/cmTC_be1dd.dir/build.make CMakeFiles/cmTC_be1dd.dir/build
 make[1]: Entering directory '/home/ubuntu/repos/ORBSLAM2_with_pointcloud_map/ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_df446.dir/feature_tests.c.o
-/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_df446.dir/feature_tests.c.o   -c /home/ubuntu/repos/ORBSLAM2_with_pointcloud_map/ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_df446
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_df446.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_df446.dir/feature_tests.c.o  -o cmTC_df446 
+Building C object CMakeFiles/cmTC_be1dd.dir/feature_tests.c.o
+/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_be1dd.dir/feature_tests.c.o   -c /home/ubuntu/repos/ORBSLAM2_with_pointcloud_map/ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_be1dd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_be1dd.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_be1dd.dir/feature_tests.c.o  -o cmTC_be1dd 
 make[1]: Leaving directory '/home/ubuntu/repos/ORBSLAM2_with_pointcloud_map/ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/CMakeTmp'
 
 
@@ -217,28 +217,28 @@ make[1]: Leaving directory '/home/ubuntu/repos/ORBSLAM2_with_pointcloud_map/ORB_
 Determining if the CXX compiler works passed with the following output:
 Change Dir: /home/ubuntu/repos/ORBSLAM2_with_pointcloud_map/ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_702e3/fast"
-/usr/bin/make -f CMakeFiles/cmTC_702e3.dir/build.make CMakeFiles/cmTC_702e3.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_77aa7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_77aa7.dir/build.make CMakeFiles/cmTC_77aa7.dir/build
 make[1]: Entering directory '/home/ubuntu/repos/ORBSLAM2_with_pointcloud_map/ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_702e3.dir/testCXXCompiler.cxx.o
-/usr/bin/c++     -o CMakeFiles/cmTC_702e3.dir/testCXXCompiler.cxx.o -c /home/ubuntu/repos/ORBSLAM2_with_pointcloud_map/ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_702e3
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_702e3.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_702e3.dir/testCXXCompiler.cxx.o  -o cmTC_702e3 
+Building CXX object CMakeFiles/cmTC_77aa7.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_77aa7.dir/testCXXCompiler.cxx.o -c /home/ubuntu/repos/ORBSLAM2_with_pointcloud_map/ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_77aa7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_77aa7.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_77aa7.dir/testCXXCompiler.cxx.o  -o cmTC_77aa7 
 make[1]: Leaving directory '/home/ubuntu/repos/ORBSLAM2_with_pointcloud_map/ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: /home/ubuntu/repos/ORBSLAM2_with_pointcloud_map/ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_5c193/fast"
-/usr/bin/make -f CMakeFiles/cmTC_5c193.dir/build.make CMakeFiles/cmTC_5c193.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_68fa1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_68fa1.dir/build.make CMakeFiles/cmTC_68fa1.dir/build
 make[1]: Entering directory '/home/ubuntu/repos/ORBSLAM2_with_pointcloud_map/ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_5c193.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++     -o CMakeFiles/cmTC_5c193.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_5c193
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5c193.dir/link.txt --verbose=1
-/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_5c193.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_5c193 
+Building CXX object CMakeFiles/cmTC_68fa1.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTC_68fa1.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_68fa1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_68fa1.dir/link.txt --verbose=1
+/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_68fa1.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_68fa1 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper
@@ -250,9 +250,9 @@ Thread model: posix
 gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_5c193' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cce9yMTw.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_5c193 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_5c193.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_5c193' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_68fa1' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cci0kl2C.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_68fa1 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_68fa1.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_68fa1' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
 make[1]: Leaving directory '/home/ubuntu/repos/ORBSLAM2_with_pointcloud_map/ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/CMakeTmp'
 
 
@@ -260,14 +260,14 @@ Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/ubuntu/repos/ORBSLAM2_with_pointcloud_map/ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_5c193/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_5c193.dir/build.make CMakeFiles/cmTC_5c193.dir/build]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_68fa1/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_68fa1.dir/build.make CMakeFiles/cmTC_68fa1.dir/build]
   ignore line: [make[1]: Entering directory '/home/ubuntu/repos/ORBSLAM2_with_pointcloud_map/ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_5c193.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTC_5c193.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_5c193]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5c193.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_5c193.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_5c193 ]
+  ignore line: [Building CXX object CMakeFiles/cmTC_68fa1.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTC_68fa1.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_68fa1]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_68fa1.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_68fa1.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_68fa1 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper]
@@ -279,13 +279,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_5c193' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cce9yMTw.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_5c193 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_5c193.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_68fa1' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cci0kl2C.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_68fa1 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_68fa1.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/cce9yMTw.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cci0kl2C.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -304,7 +304,7 @@ Parsed CXX implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_5c193] ==> ignore
+    arg [cmTC_68fa1] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o] ==> ignore
@@ -316,7 +316,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..]
-    arg [CMakeFiles/cmTC_5c193.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_68fa1.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -344,14 +344,14 @@ Parsed CXX implicit link information from above output:
 Detecting CXX [-std=c++1z] compiler features compiled with the following output:
 Change Dir: /home/ubuntu/repos/ORBSLAM2_with_pointcloud_map/ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_86cc8/fast"
-/usr/bin/make -f CMakeFiles/cmTC_86cc8.dir/build.make CMakeFiles/cmTC_86cc8.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_f2a7e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f2a7e.dir/build.make CMakeFiles/cmTC_f2a7e.dir/build
 make[1]: Entering directory '/home/ubuntu/repos/ORBSLAM2_with_pointcloud_map/ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_86cc8.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++1z -o CMakeFiles/cmTC_86cc8.dir/feature_tests.cxx.o -c /home/ubuntu/repos/ORBSLAM2_with_pointcloud_map/ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_86cc8
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_86cc8.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_86cc8.dir/feature_tests.cxx.o  -o cmTC_86cc8 
+Building CXX object CMakeFiles/cmTC_f2a7e.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++1z -o CMakeFiles/cmTC_f2a7e.dir/feature_tests.cxx.o -c /home/ubuntu/repos/ORBSLAM2_with_pointcloud_map/ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_f2a7e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f2a7e.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_f2a7e.dir/feature_tests.cxx.o  -o cmTC_f2a7e 
 make[1]: Leaving directory '/home/ubuntu/repos/ORBSLAM2_with_pointcloud_map/ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/CMakeTmp'
 
 
@@ -417,14 +417,14 @@ make[1]: Leaving directory '/home/ubuntu/repos/ORBSLAM2_with_pointcloud_map/ORB_
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
 Change Dir: /home/ubuntu/repos/ORBSLAM2_with_pointcloud_map/ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_7b31f/fast"
-/usr/bin/make -f CMakeFiles/cmTC_7b31f.dir/build.make CMakeFiles/cmTC_7b31f.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_563c5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_563c5.dir/build.make CMakeFiles/cmTC_563c5.dir/build
 make[1]: Entering directory '/home/ubuntu/repos/ORBSLAM2_with_pointcloud_map/ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_7b31f.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_7b31f.dir/feature_tests.cxx.o -c /home/ubuntu/repos/ORBSLAM2_with_pointcloud_map/ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_7b31f
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7b31f.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_7b31f.dir/feature_tests.cxx.o  -o cmTC_7b31f 
+Building CXX object CMakeFiles/cmTC_563c5.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_563c5.dir/feature_tests.cxx.o -c /home/ubuntu/repos/ORBSLAM2_with_pointcloud_map/ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_563c5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_563c5.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_563c5.dir/feature_tests.cxx.o  -o cmTC_563c5 
 make[1]: Leaving directory '/home/ubuntu/repos/ORBSLAM2_with_pointcloud_map/ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/CMakeTmp'
 
 
@@ -490,14 +490,14 @@ make[1]: Leaving directory '/home/ubuntu/repos/ORBSLAM2_with_pointcloud_map/ORB_
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
 Change Dir: /home/ubuntu/repos/ORBSLAM2_with_pointcloud_map/ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_dabc8/fast"
-/usr/bin/make -f CMakeFiles/cmTC_dabc8.dir/build.make CMakeFiles/cmTC_dabc8.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_8ade3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8ade3.dir/build.make CMakeFiles/cmTC_8ade3.dir/build
 make[1]: Entering directory '/home/ubuntu/repos/ORBSLAM2_with_pointcloud_map/ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_dabc8.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_dabc8.dir/feature_tests.cxx.o -c /home/ubuntu/repos/ORBSLAM2_with_pointcloud_map/ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_dabc8
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dabc8.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_dabc8.dir/feature_tests.cxx.o  -o cmTC_dabc8 
+Building CXX object CMakeFiles/cmTC_8ade3.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_8ade3.dir/feature_tests.cxx.o -c /home/ubuntu/repos/ORBSLAM2_with_pointcloud_map/ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_8ade3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8ade3.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_8ade3.dir/feature_tests.cxx.o  -o cmTC_8ade3 
 make[1]: Leaving directory '/home/ubuntu/repos/ORBSLAM2_with_pointcloud_map/ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/CMakeTmp'
 
 
@@ -563,14 +563,14 @@ make[1]: Leaving directory '/home/ubuntu/repos/ORBSLAM2_with_pointcloud_map/ORB_
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
 Change Dir: /home/ubuntu/repos/ORBSLAM2_with_pointcloud_map/ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_5d34a/fast"
-/usr/bin/make -f CMakeFiles/cmTC_5d34a.dir/build.make CMakeFiles/cmTC_5d34a.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_83210/fast"
+/usr/bin/make -f CMakeFiles/cmTC_83210.dir/build.make CMakeFiles/cmTC_83210.dir/build
 make[1]: Entering directory '/home/ubuntu/repos/ORBSLAM2_with_pointcloud_map/ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_5d34a.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_5d34a.dir/feature_tests.cxx.o -c /home/ubuntu/repos/ORBSLAM2_with_pointcloud_map/ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_5d34a
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5d34a.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_5d34a.dir/feature_tests.cxx.o  -o cmTC_5d34a 
+Building CXX object CMakeFiles/cmTC_83210.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_83210.dir/feature_tests.cxx.o -c /home/ubuntu/repos/ORBSLAM2_with_pointcloud_map/ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_83210
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_83210.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_83210.dir/feature_tests.cxx.o  -o cmTC_83210 
 make[1]: Leaving directory '/home/ubuntu/repos/ORBSLAM2_with_pointcloud_map/ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/CMakeTmp'
 
 
@@ -634,42 +634,42 @@ make[1]: Leaving directory '/home/ubuntu/repos/ORBSLAM2_with_pointcloud_map/ORB_
 Determining if the include file pthread.h exists passed with the following output:
 Change Dir: /home/ubuntu/repos/ORBSLAM2_with_pointcloud_map/ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_3aaad/fast"
-/usr/bin/make -f CMakeFiles/cmTC_3aaad.dir/build.make CMakeFiles/cmTC_3aaad.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_a67e1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a67e1.dir/build.make CMakeFiles/cmTC_a67e1.dir/build
 make[1]: Entering directory '/home/ubuntu/repos/ORBSLAM2_with_pointcloud_map/ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_3aaad.dir/CheckIncludeFile.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_3aaad.dir/CheckIncludeFile.c.o   -c /home/ubuntu/repos/ORBSLAM2_with_pointcloud_map/ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_3aaad
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3aaad.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_3aaad.dir/CheckIncludeFile.c.o  -o cmTC_3aaad 
+Building C object CMakeFiles/cmTC_a67e1.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_a67e1.dir/CheckIncludeFile.c.o   -c /home/ubuntu/repos/ORBSLAM2_with_pointcloud_map/ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_a67e1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a67e1.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_a67e1.dir/CheckIncludeFile.c.o  -o cmTC_a67e1 
 make[1]: Leaving directory '/home/ubuntu/repos/ORBSLAM2_with_pointcloud_map/ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the function pthread_create exists in the pthread passed with the following output:
 Change Dir: /home/ubuntu/repos/ORBSLAM2_with_pointcloud_map/ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_1199e/fast"
-/usr/bin/make -f CMakeFiles/cmTC_1199e.dir/build.make CMakeFiles/cmTC_1199e.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_3c65c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3c65c.dir/build.make CMakeFiles/cmTC_3c65c.dir/build
 make[1]: Entering directory '/home/ubuntu/repos/ORBSLAM2_with_pointcloud_map/ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_1199e.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_1199e.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
-Linking C executable cmTC_1199e
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1199e.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_1199e.dir/CheckFunctionExists.c.o  -o cmTC_1199e -lpthread 
+Building C object CMakeFiles/cmTC_3c65c.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_3c65c.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_3c65c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3c65c.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_3c65c.dir/CheckFunctionExists.c.o  -o cmTC_3c65c -lpthread 
 make[1]: Leaving directory '/home/ubuntu/repos/ORBSLAM2_with_pointcloud_map/ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/CMakeTmp'
 
 
 Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_CXX11 succeeded with the following output:
 Change Dir: /home/ubuntu/repos/ORBSLAM2_with_pointcloud_map/ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_f4b2b/fast"
-/usr/bin/make -f CMakeFiles/cmTC_f4b2b.dir/build.make CMakeFiles/cmTC_f4b2b.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_e6026/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e6026.dir/build.make CMakeFiles/cmTC_e6026.dir/build
 make[1]: Entering directory '/home/ubuntu/repos/ORBSLAM2_with_pointcloud_map/ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_f4b2b.dir/src.cxx.o
-/usr/bin/c++    -Wall  -O3 -march=native -DCOMPILER_SUPPORTS_CXX11   -std=c++11 -o CMakeFiles/cmTC_f4b2b.dir/src.cxx.o -c /home/ubuntu/repos/ORBSLAM2_with_pointcloud_map/ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTC_f4b2b
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f4b2b.dir/link.txt --verbose=1
-/usr/bin/c++   -Wall  -O3 -march=native -DCOMPILER_SUPPORTS_CXX11    -rdynamic CMakeFiles/cmTC_f4b2b.dir/src.cxx.o  -o cmTC_f4b2b 
+Building CXX object CMakeFiles/cmTC_e6026.dir/src.cxx.o
+/usr/bin/c++    -Wall  -O3 -march=native -DCOMPILER_SUPPORTS_CXX11   -std=c++11 -o CMakeFiles/cmTC_e6026.dir/src.cxx.o -c /home/ubuntu/repos/ORBSLAM2_with_pointcloud_map/ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_e6026
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e6026.dir/link.txt --verbose=1
+/usr/bin/c++   -Wall  -O3 -march=native -DCOMPILER_SUPPORTS_CXX11    -rdynamic CMakeFiles/cmTC_e6026.dir/src.cxx.o  -o cmTC_e6026 
 make[1]: Leaving directory '/home/ubuntu/repos/ORBSLAM2_with_pointcloud_map/ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/CMakeTmp'
 
 Source file was:
@@ -677,14 +677,14 @@ int main() { return 0; }
 Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_CXX0X succeeded with the following output:
 Change Dir: /home/ubuntu/repos/ORBSLAM2_with_pointcloud_map/ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_e347c/fast"
-/usr/bin/make -f CMakeFiles/cmTC_e347c.dir/build.make CMakeFiles/cmTC_e347c.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_481c3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_481c3.dir/build.make CMakeFiles/cmTC_481c3.dir/build
 make[1]: Entering directory '/home/ubuntu/repos/ORBSLAM2_with_pointcloud_map/ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_e347c.dir/src.cxx.o
-/usr/bin/c++    -Wall  -O3 -march=native -DCOMPILER_SUPPORTS_CXX0X   -std=c++0x -o CMakeFiles/cmTC_e347c.dir/src.cxx.o -c /home/ubuntu/repos/ORBSLAM2_with_pointcloud_map/ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTC_e347c
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e347c.dir/link.txt --verbose=1
-/usr/bin/c++   -Wall  -O3 -march=native -DCOMPILER_SUPPORTS_CXX0X    -rdynamic CMakeFiles/cmTC_e347c.dir/src.cxx.o  -o cmTC_e347c 
+Building CXX object CMakeFiles/cmTC_481c3.dir/src.cxx.o
+/usr/bin/c++    -Wall  -O3 -march=native -DCOMPILER_SUPPORTS_CXX0X   -std=c++0x -o CMakeFiles/cmTC_481c3.dir/src.cxx.o -c /home/ubuntu/repos/ORBSLAM2_with_pointcloud_map/ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_481c3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_481c3.dir/link.txt --verbose=1
+/usr/bin/c++   -Wall  -O3 -march=native -DCOMPILER_SUPPORTS_CXX0X    -rdynamic CMakeFiles/cmTC_481c3.dir/src.cxx.o  -o cmTC_481c3 
 make[1]: Leaving directory '/home/ubuntu/repos/ORBSLAM2_with_pointcloud_map/ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/CMakeTmp'
 
 Source file was:

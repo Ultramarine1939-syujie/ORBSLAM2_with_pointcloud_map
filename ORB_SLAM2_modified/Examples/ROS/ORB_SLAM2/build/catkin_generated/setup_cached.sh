@@ -7,7 +7,6 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/jackey/install/ORB_SLAM2/Examples/ROS/ORB_SLAM2/build/devel:$CMAKE_PREFIX_PATH"
-export PATH="/opt/ros/kinetic/bin:/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"
-export ROSLISP_PACKAGE_DIRECTORIES="/home/jackey/install/ORB_SLAM2/Examples/ROS/ORB_SLAM2/build/devel/share/common-lisp"
-export ROS_PACKAGE_PATH="/home/jackey/install/ORB_SLAM2/Examples/ROS/ORB_SLAM2:/opt/ros/kinetic/share"
+export CMAKE_PREFIX_PATH="/home/ubuntu/repos/ORBSLAM2_with_pointcloud_map/ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/devel:$CMAKE_PREFIX_PATH"
+export ROSLISP_PACKAGE_DIRECTORIES='/home/ubuntu/repos/ORBSLAM2_with_pointcloud_map/ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/devel/share/common-lisp'
+export ROS_PACKAGE_PATH='/home/ubuntu/repos/ORBSLAM2_with_pointcloud_map/ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2:/opt/ros/melodic/share'

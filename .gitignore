@@ -1,0 +1,5 @@
+g2o_with_orbslam2/build
+g2o_with_orbslam2/bin
+ORB_SLAM2_modified/Vocabulary/ORBvoc.txt
+ORB_SLAM2_modified/build
+ORB_SLAM2_modified/Thirdparty/DBoW2/build

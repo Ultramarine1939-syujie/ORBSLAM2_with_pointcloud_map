@@ -285,6 +285,12 @@ void System::Shutdown()
     pangolin::BindToContext("ORB-SLAM2: Map Viewer");
 }
 
+void System::SavePointCloud()
+{
+    mpPointCloudMapping->save();
+}
+
+
 void System::SaveTrajectoryTUM(const string &filename)
 {
     cout << endl << "Saving camera trajectory to " << filename << " ..." << endl;

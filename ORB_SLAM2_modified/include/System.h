@@ -111,6 +111,8 @@ public:
     // TODO: Save/Load functions
     // SaveMap(const string &filename);
     // LoadMap(const string &filename);
+    void SavePointCloud();
+
 
 private:
 

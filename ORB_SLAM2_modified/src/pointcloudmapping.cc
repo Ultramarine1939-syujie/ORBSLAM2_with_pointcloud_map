@@ -21,6 +21,7 @@
 #include <KeyFrame.h>
 #include <opencv2/highgui/highgui.hpp>
 #include <pcl/visualization/cloud_viewer.h>
+#include <pcl/io/pcd_io.h>
 #include "Converter.h"
 
 PointCloudMapping::PointCloudMapping(double resolution_)
@@ -126,3 +127,8 @@ void PointCloudMapping::viewer()
     }
 }
 
+void PointCloudMapping::save()
+{
+	pcl::io::savePCDFileBinary( "result.pcd", *globalMap );
+	cout<<"globalMap save finished"<<endl;
+}

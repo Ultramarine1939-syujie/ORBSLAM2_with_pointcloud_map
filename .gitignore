@@ -9,3 +9,9 @@ g2o_with_orbslam2/cmake_modules
 ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build
 g2o_with_orbslam2/lib/
 ORB_SLAM2_modified/Thirdparty/g2o/lib
+ORB_SLAM2_modified/lib
+ORB_SLAM2_modified/Examples/Monocular/mono_kitti
+ORB_SLAM2_modified/Examples/Monocular/mono_tum
+ORB_SLAM2_modified/Examples/RGB-D/rgbd_tum
+ORB_SLAM2_modified/Examples/Stereo/stereo_kitti
+ORB_SLAM2_modified/lib/libORB_SLAM2.so

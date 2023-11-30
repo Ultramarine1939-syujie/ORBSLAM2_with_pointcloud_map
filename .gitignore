@@ -17,3 +17,9 @@ ORB_SLAM2_modified/Examples/RGB-D/rgbd_my
 ORB_SLAM2_modified/Examples/RGB-D/rgbd_tum
 ORB_SLAM2_modified/Examples/Stereo/stereo_kitti
 ORB_SLAM2_modified/lib/libORB_SLAM2.so
+
+ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build
+ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/Mono
+ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/MonoAR
+ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/RGBD
+ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/Stereo

@@ -1,1 +1,1 @@
-Examples/RGB-D/rgbd_tum ./Vocabulary/ORBvoc.txt ./Examples/RGB-D/TUM1.yaml ~/rgbd_dataset_freiburg1_room /home/ubuntu/repos/ORBSLAM2_with_pointcloud_map/ORB_SLAM2_modified/Examples/RGB-D/associations/fr1_room.txt
+Examples/RGB-D/rgbd_tum ./Vocabulary/ORBvoc.txt ./Examples/RGB-D/TUM1.yaml ~/rgbd_dataset_freiburg1_room /home/ubuntu/ORBSLAM2_with_pointcloud_map/ORB_SLAM2_modified/Examples/RGB-D/associations/fr1_room.txt

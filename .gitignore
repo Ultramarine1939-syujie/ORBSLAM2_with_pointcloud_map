@@ -23,3 +23,5 @@ ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/Mono
 ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/MonoAR
 ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/RGBD
 ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/Stereo
+
+ORB_SLAM2_modified/CameraTrajectory.txt

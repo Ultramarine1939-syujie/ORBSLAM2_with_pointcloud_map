@@ -31,10 +31,10 @@ endif()
 LIST(APPEND CMAKE_MODULE_PATH ${PROJECT_SOURCE_DIR}/cmake_modules)
 
 find_package(OpenCV REQUIRED)
+find_package( G2O REQUIRED )
 find_package(Eigen3 3.1.0 REQUIRED)
 find_package(Pangolin 0.5 REQUIRED)
-find_package( G2O REQUIRED )
-find_package( PCL 1.8 REQUIRED )
+find_package( PCL 1.8 REQUIRED)
 
 include_directories(
 ${PROJECT_SOURCE_DIR}

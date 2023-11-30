@@ -1,3 +1,5 @@
+sudo apt-get install pcl-tools
+
 echo "Configuring and building Thirdparty/DBoW2 ..."
 
 cd Thirdparty/DBoW2

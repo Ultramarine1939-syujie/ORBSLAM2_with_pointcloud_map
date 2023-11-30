@@ -32,8 +32,9 @@ LIST(APPEND CMAKE_MODULE_PATH ${PROJECT_SOURCE_DIR}/../../../cmake_modules)
 
 find_package(OpenCV REQUIRED)
 find_package(Eigen3 3.1.0 REQUIRED)
+find_package(G2O REQUIRED)
 find_package(Pangolin REQUIRED)
-find_package(PCL REQUIRED )  #添加了稠密点云显示，用到了pcl库，要找到PCL库并添加进来
+find_package(PCL REQUIRED)  #添加了稠密点云显示，用到了pcl库，要找到PCL库并添加进来
 
 include_directories(
 ${PROJECT_SOURCE_DIR}
@@ -43,6 +44,7 @@ ${PROJECT_SOURCE_DIR}/../../../include
 ${Pangolin_INCLUDE_DIRS}
 )
 
+add_definitions( ${PCL_DEFINITIONS} ) 
 link_directories( ${PCL_LIBRARY_DIRS} )
 
 set(LIBS 

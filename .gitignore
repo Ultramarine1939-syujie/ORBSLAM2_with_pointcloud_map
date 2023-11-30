@@ -8,3 +8,4 @@ ORB_SLAM2_modified/Thirdparty/g2o/build
 g2o_with_orbslam2/cmake_modules
 ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build
 g2o_with_orbslam2/lib/
+ORB_SLAM2_modified/Thirdparty/g2o/lib

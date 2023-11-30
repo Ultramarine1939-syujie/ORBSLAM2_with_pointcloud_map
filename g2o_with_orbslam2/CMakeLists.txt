@@ -10,6 +10,8 @@ SET(g2o_C_FLAGS)
 SET(g2o_CXX_FLAGS)
 # SET( CMAKE_CXX_COMPILER "clang++")
 
+include_directories("/usr/include/eigen3")
+
 # default built type
 IF(NOT CMAKE_BUILD_TYPE)
   SET(CMAKE_BUILD_TYPE Release CACHE STRING

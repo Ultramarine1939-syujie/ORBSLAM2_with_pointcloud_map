@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/ubuntu/repos/ORBSLAM2_with_pointcloud_map/ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/src/ros_rgbd.cc
+/home/ubuntu/ORBSLAM2_with_pointcloud_map/ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/src/ros_rgbd.cc
 iostream
 -
 algorithm
@@ -28,7 +28,7 @@ message_filters/sync_policies/approximate_time.h
 opencv2/core/core.hpp
 -
 ../../../include/System.h
-/home/ubuntu/repos/ORBSLAM2_with_pointcloud_map/ORB_SLAM2_modified/Examples/include/System.h
+/home/ubuntu/ORBSLAM2_with_pointcloud_map/ORB_SLAM2_modified/Examples/include/System.h
 
 /opt/ros/melodic/include/cv_bridge/cv_bridge.h
 sensor_msgs/Image.h

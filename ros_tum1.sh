@@ -1,1 +1,0 @@
-rosrun ORB_SLAM2 RGBD /home/ubuntu/ORBSLAM2_with_pointcloud_map/ORB_SLAM2_modified/Vocabulary/ORBvoc.txt /home/ubuntu/ORBSLAM2_with_pointcloud_map/ORB_SLAM2_modified/Examples/RGB-D/TUM1.yaml

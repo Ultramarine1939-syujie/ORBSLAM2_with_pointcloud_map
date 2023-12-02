@@ -1,6 +1,8 @@
 ![log seeking](demo.png "Logo Title Text 1")
 
-针对ubuntu18.04系统做了验证，窗口环境为x11
+针对ubuntu18.04系统做了验证，窗口环境为x11，主要软件版本如下：
+
+EIGEN3=3.3.6、PCL=1.8.1、OPENCV=3.2.0、Pangolin=0.5
 
 #### 基础环境配置：
 
@@ -21,7 +23,7 @@ libglu1-mesa-dev libgl1-mesa-dev libusb-1.0-0-dev libudev-dev doxygen \
 doxygen-doc libxkbcommon-dev
 ```
 
-3、安装eigen3（3.3.）
+3、安装eigen3（3.3.6）
 
 ```bash
 sudo apt install libeigen3-dev
@@ -79,5 +81,13 @@ ORB_SLAM2_modified\Examples\RGB-D\associations	#各类数据集在无ROS环境�
 ORB_SLAM2_modified\tools\bin_vocabulary.cc		#ORBvoc.txt转ORBvoc.bin
 tum1.sh			#TUM1数据集（无ROS）
 ros_tum1.sh		#TUM1数据集（无ROS）
+```
+
+#### Debug说明：
+
+```bash
+#1、原版代码在ROS环境下行时不会显示点云与轨迹，更换ORB_SLAM2_modified\Examples\ROS\ORB_SLAM2\src\ros_rgbd.cc解决，暂未修改ros_mono.cc
+https://github.com/wylnii/ORBSLAM2_with_pointcloud_map
+#2、代码基于eigen3.3.6运行，无需切换eigen版本
 ```
 

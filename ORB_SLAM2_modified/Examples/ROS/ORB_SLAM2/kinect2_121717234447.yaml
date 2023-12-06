@@ -5,19 +5,39 @@
 #--------------------------------------------------------------------------------------------
 
 # Camera calibration and distortion parameters (OpenCV) 
-Camera.fx: 517.306408
-Camera.fy: 516.469215
-Camera.cx: 318.643040
-Camera.cy: 255.313989
+# 注意 Kinect v2原始分辨率为1080p，使用540p分辨率时，请将1080p分辨率下的相机内参÷2
+# 960*540
+#Camera.fx: 517.81
+#Camera.fy: 518.32
+#Camera.cx: 464.636
+#Camera.cy: 262.121
 
-Camera.k1: 0.262383
-Camera.k2: -0.953104
-Camera.p1: -0.005358
-Camera.p2: 0.002628
-Camera.k3: 1.163314
+# 480*270
+Camera.fx: 258.905
+Camera.fy: 259.16
+Camera.cx: 232.318
+Camera.cy: 131.0605
+
+# 640*360
+#Camera.fx: 345.207
+#Camera.fy: 345.547
+#Camera.cx: 309.757
+#Camera.cy: 174.747
+
+# 640*480
+#Camera.fx: 366.766
+#Camera.fy: 366.766
+#Camera.cx: 255.912
+#Camera.cy: 210.206
+
+#Camera.k1: 6.0613879580807217e-02
+#Camera.k2: -1.4239109049821155e-01
+#Camera.p1: -5.2220432507920555e-03
+#Camera.p2: -1.9702324541114201e-03
+#Camera.k3: 7.2152463246044463e-02
 
 Camera.width: 640
-Camera.height: 480
+Camera.height: 360
 
 # Camera frames per second 
 Camera.fps: 30.0
@@ -26,13 +46,13 @@ Camera.fps: 30.0
 Camera.bf: 40.0
 
 # Color order of the images (0: BGR, 1: RGB. It is ignored if images are grayscale)
-Camera.RGB: 1
+Camera.RGB: 0
 
 # Close/Far threshold. Baseline times.
 ThDepth: 40.0
 
 # Deptmap values factor 
-DepthMapFactor: 1.0
+DepthMapFactor: 1000
 
 #--------------------------------------------------------------------------------------------
 # ORB Parameters
@@ -71,6 +91,6 @@ Viewer.ViewpointF: 500
 PointCloudMapping.Resolution: 0.01
 
 # kinect image topic
-rgb_topic: /camera/rgb/image_color
-depth_topic: /camera/depth/image
+rgb_topic: /kinect2/qhd/image_color_rect
+depth_topic: /kinect2/qhd/image_depth_rect
 

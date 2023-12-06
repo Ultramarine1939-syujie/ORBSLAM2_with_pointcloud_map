@@ -1,8 +1,8 @@
 ![log seeking](demo.png "Logo Title Text 1")
 
-针对ubuntu18.04系统做了验证，窗口环境为x11，主要软件版本如下：
+针对ubuntu20.04系统做了验证，窗口环境为x11，主要软件版本如下：
 
-EIGEN3=3.3.6、PCL=1.8.1、OPENCV=3.2.0、Pangolin=0.5
+EIGEN3=3.3.6、PCL=1.10、OPENCV=4.2.0、Pangolin=0.6
 
 #### 基础环境配置：
 

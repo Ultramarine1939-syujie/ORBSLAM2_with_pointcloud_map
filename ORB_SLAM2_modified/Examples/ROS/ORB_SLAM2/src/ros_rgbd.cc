@@ -101,7 +101,7 @@ int main(int argc, char **argv)
     message_filters::Synchronizer <sync_pol> sync(sync_pol(10), rgb_sub, depth_sub);
     sync.registerCallback(boost::bind(&ImageGrabber::GrabRGBD, &igb, _1, _2));
 
-    ros::Subscriber sub = nh.subscribe("/RGBD/cmd", 1000, cmdCallback);
+    //ros::Subscriber sub = nh.subscribe("/RGBD/cmd", 1000, cmdCallback);
 
     ros::spin();
 

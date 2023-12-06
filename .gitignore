@@ -24,3 +24,4 @@ ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/Stereo
 ORB_SLAM2_modified/CameraTrajectory.txt
 ORB_SLAM2_modified/KeyFrameTrajectory.txt
 ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build
+ORB_SLAM2_modified/Thirdparty/DBoW2/lib/libDBoW2.so
